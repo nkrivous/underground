@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TableTennisComponent } from './table-tennis/table-tennis.component';
+import { MaterialModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TableTennisComponent } from './table-tennis/table-tennis.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
